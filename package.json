@@ -1,24 +1,22 @@
 {
-  "name": "chat-app",
+  "name": "ai-project-nodejs-master",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r ts-node/register --env-file=.env src/pinecone/FaqChatbot.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^20.14.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
-  },
+  "description": "",
   "dependencies": {
-    "@pinecone-database/pinecone": "^2.2.2",
     "chromadb": "^1.8.1",
-    "openai": "^4.51.0",
+    "openai": "^4.52.2",
     "tiktoken": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
   }
 }
